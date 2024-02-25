@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    margin: 20px auto;
+    width:50%;
+}
+
+h2 {
+    color:white;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    color:white;
+    background-color:rgba(3, 3, 3, 0.5);
+    border-radius: 5px;
+}
+
+.menu-item img {
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    float:right;
+}
